@@ -26,7 +26,6 @@ const CompanySchema=mongoose.Schema({
 
 });
 
-//Naming the created schema 'CompanySchema'
 const Company=mongoose.model('Company',CompanySchema);
-//then export it to use 
+
 module.exports=Company;

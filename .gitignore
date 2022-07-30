@@ -10,7 +10,8 @@
 
 # production
 /build
-
+/public/uploadimages
+/public/images
 # misc
 .DS_Store
 .env

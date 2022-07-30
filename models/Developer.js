@@ -17,8 +17,6 @@ const DeveloperSchema=new mongoose.Schema({
     hiddenScore:{
         type:String
     },
-    // subscribed companies to get their latest updates
-    //store email
     subscribed:[String],
     
     notifications:[String],

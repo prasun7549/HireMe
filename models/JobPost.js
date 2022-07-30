@@ -46,12 +46,6 @@ const JobPostSchema=new mongoose.Schema({
         type:String,
         required:true
     }
-
-
-
-    
-
-
 })
 
 const JobPost = mongoose.model('JobPost',JobPostSchema);
